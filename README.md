@@ -1,7 +1,7 @@
 # django-apache-nginx-uwsgi-vps-ubuntu
 Tutorial on how to deploy a Django application on Linux VPS with Apache, NGINX and uWSGI
 
-## Using Ubuntu Server 18.04 LTS
+* Using Ubuntu Server 18.04 LTS
 
 ## Preparing the environmnet
 ```
