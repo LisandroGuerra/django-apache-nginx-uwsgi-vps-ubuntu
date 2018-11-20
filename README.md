@@ -1,8 +1,11 @@
 # django-apache-nginx-uwsgi-vps-ubuntu
 Tutorial on how to deploy a Django application on Linux VPS with Apache, NGINX and uWSGI
 
+## Using Ubuntu Server 18.04 LTS
+
 ## Preparing the environmnet
 ```
+sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install python3-venv
 ```
 * Create virtual env
@@ -12,6 +15,12 @@ sudo apt-get install python3-venv
 * Clone repository
 
 ```git clone your-url.git```
+
+* Virtual environment activation
+``` . venv/bin/activate ```
+
+* Upgrade pip
+``` pip install --upgrade pip ```
 
 * Install requirementst
 ``` pip install requirements.txt```
